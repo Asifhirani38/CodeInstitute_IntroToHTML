@@ -6,13 +6,13 @@ It is NOT an HTML tag. It tells the browser about the version of HTML this docum
 Always add the DOCTYPE declaration! 
 -->
 
-<html>
+<html lang="en-US" >
 
 	<head>
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width">
 	  <title>Welcome to FullStack BootCamp</title>
-	  <link rel="stylesheet" href="style.css" type="text/css" />
+	  <link rel="stylesheet" href="style.css" type="text/css">
 	</head>
 
 	<body>
@@ -46,7 +46,7 @@ Always add the DOCTYPE declaration!
 				</li>
 
 				<li style="color:darkblue">
-				  <p>Images can be added to HTML using <img> tab and specifying source of the image (local file or online webpage
+				  <p>Images can be added to HTML using img tab and specifying source of the image (local file or online webpage
 					link). Image can be resized
 					using height and width attributes. We can use either pixel size of percentage method to resize the image in
 					html.
@@ -84,6 +84,7 @@ Always add the DOCTYPE declaration!
 					<a href="https://makeiterate.com/the-stanford-design-thinking-process/" target="_blank"> The Design Thinking Process: </a>
 				  </p>
 				</li>
+				<li>
 					<p> <u> Five parts process of Design Thinking involves </u> </p>
 						<ol class="custom-counter">
 							<li style="color:darkblue"> <p> Empathize:Understand User needs </p> </li>
@@ -92,39 +93,42 @@ Always add the DOCTYPE declaration!
 							<li style="color:darkblue"> <p> Prototype: Make your new idea tangible </p> </li> 
 							<li style="color:darkblue"> <p> Test:Get Feedback from the users </p> </li>
 						</ol>
+					</li>
+				
 			</ol>
 		
-		<h3 "id=thirdclass"> <u> Introduction of Programming Paradigms: </u> </h3>
+		<h3 id="thirdclass"> <u> Introduction of Programming Paradigms: </u> </h3>
 		<a href=#welcome>Go to Welcome</a>
 			
 			<ol>
 				<li style="color:darkblue">
-				  <p> Programming paradigm is an approach to solve problem using some programming language or also we can say it is a method to solve a problem using 
-				      tools and techniques that are available to us following some approach. There are lots for programming language that are known but all of them 
-					  need to follow some strategy when they are implemented and this methodology/strategy is paradigms.  </p>
-				
-					<image src="C:\Users\520002\Downloads\PracticeCode\ProgrammingParadigms.png" height=50% width=50%> <br> 
-					<a href="https://www.geeksforgeeks.org/introduction-of-programming-paradigms/" target="_blank"> Introduction to Programming Paradigms </a> </br>
+
+				  <p> 
+					
+					Programming paradigm is an approach to solve problem using some programming language or also we can say it is a method to solve a problem using tools and techniques that are available to us following some approach. There are lots for programming language that are known but all of them need to follow some strategy when they are implemented and this methodology/strategy is paradigms.  
+
+				  </p>
+
 				</li>
+
+				  <image src="C:\Users\520002\Downloads\PracticeCode\ProgrammingParadigms.png" height=50% width=50%>
+
+				  <a href="https://www.geeksforgeeks.org/introduction-of-programming-paradigms/" target="_blank"> Introduction to Programming Paradigms </a>
 				
 				<li style="color:darkblue"> 
 					
-					<p> Imperative programming is a software development paradigm where Functions are implicitly coded in every step required to solve a problem. 
-					    In imperative programming, every operation is coded and the code itself specifies how the problem is to be solved, which means that pre-coded models 
-						are not called on.</p> 
-				
+					<p> Imperative programming is a software development paradigm where Functions are implicitly coded in every step required to solve a problem. In imperative programming, every operation is coded and the code itself specifies how the problem is to be solved, which means that pre-coded models are not called on.
+					</p> 
 				</li>
 				
 				<li style="color:darkblue">
 					<p> Declarative programming describes what you want the program to achieve rather than how it should run.
-
-						In other words, within the declarative paradigm, you define the results you want a program to accomplish without describin its control flow. 
-						Ultimately, it’s up to the programming language’s implementation and the compiler to determine how to achieve the results. 
-						This places emphasis not on the execution process, but on the results and their ties to your overall goal. </p>
+						In other words, within the declarative paradigm, you define the results you want a program to accomplish without describin its control flow. Ultimately, it’s up to the programming language’s implementation and the compiler to determine how to achieve the results. This places emphasis not on the execution process, but on the results and their ties to your overall goal. 
+					</p>
+				</li>
+					<image src="https://www.educative.io/api/page/5244002156937216/image/download/4661171284344832" height= 50% width= 50%> <br> 
+					<a href="https://www.educative.io/blog/declarative-vs-imperative-programming" target="_blank"> Declarative vs Imperative Programming </a><br>
 				
-				
-				<br> <image src="https://www.educative.io/api/page/5244002156937216/image/download/4661171284344832" height= 50% width= 50%> <br> 
-				     <a href="https://www.educative.io/blog/declarative-vs-imperative-programming" target="_blank"> Declarative vs Imperative Programming </a> </br> </br>
 									
 				<li style="color:darkblue">
 				
@@ -591,7 +595,74 @@ Always add the DOCTYPE declaration!
 							<li style="color:darkblue"> <b> The <u> textarea </u> element can also take a placeholder attribute for hint text to be displayed in the text window before the user starts typing.</li> </b>
 						</p>
 					</li>
-				</ul>		
+				</ul>
+			<h3>The <u>img</u> element in HTML</h3>
+				<ol> 
+					<li>
+			
+						<p>The <u>img</u> element is a self-closing element, meaning it cannot have other content nested inside it, and it has no closing tag.The <u>img</u> element takes two important attributes: The src attribute, which takes the file path to the image file to be displayed. And the alt attribute for text to be displayed if the image file does not load, and to describe the image on screen readers for visually impaired users.
+						 The <u>img</u> element can also take height and width attributes to control its size. Though it is worth bearing in mind, it is better practice to use CSS to control height and width properties, once you have learned how, of course.
+						</p>
+					</li>
+				</ol>
+
+			
+			<h3>The HTML <u>picture</u> Tag</h3>
+				<ol>
+					<li>
+						The picture tag gives web developers more flexibility in specifying image resources.
+
+							The most common use of the picture element will be for art direction in responsive designs. Instead of having one image that is scaled up or down based on the viewport width, multiple images can be designed to more nicely fill the browser viewport.
+							
+							The picture element contains two tags: one or more source tags and one img tag.
+							
+							The browser will look for the first source element where the media query matches the current viewport width, and then it will display the proper image (specified in the srcset attribute). The img element is required as the last child of the picture element, as a fallback option if none of the source tags matches.
+							
+							Tip: The picture element works "similar" to video and audio. You set up different sources, and the first source that fits the preferences is the one being used.
+					</li>
+				</ol>
+			<h3> The Audio Element</h3>
+				<ol>
+					<li>
+						<p>
+							The audio element is used to embed sound content into a web page. The source of the audio file is defined using the src attribute on the audio element.The audio element can take several other attributes depending on the behaviour you want it to have. If the controls attribute is included the browser will give the user controls for audio playback, including volume and pause. The loop attribute will set the audio file to start over each time it is finished. And the muted attribute specifies if the audio file should be muted when the file is first loaded.The autoplay attribute, when set, will automatically play the audio on page load. However, it is considered a bad user experience to autoplay audio or video that has sound on it. Some browsers - including Chrome - will block audio files from playing automatically until the user interacts with the page.
+						</p>
+					</li>
+					<li>
+						<p>
+							Browsers don't all support the same file types for audio, so if you want to be sure your audio file will play on all of them you can provide multiple sources inside nested <source> elements, and the browser will use the first one that it finds compatible.When nested inside an <audio> element, the <source> element takes two attributes: The src attribute, which defines the path to the audio file, and type, which defines the type of audio file. The value for the type attribute here is either audio/mpeg or audio/ogg.
+						</p>
+					</li>
+					<li>
+						<p>
+							An audio element can also contain a track element. This element is used to reference timed text tracks (or time-based data), for example, to handle displaying subtitles automatically.You can read more about the track element in this documentation.As the audio element was introduced with HTML5, some browsers do not support it. So like the iframe element, you can leave a message between the audio opening and closing tags to be displayed to users of these browsers. You can put any html elements between your audio element tags; common choices are paragraph, anchor or heading elements for a text-based message. However, you could add an image, button or any other relevant content that makes sense to display to a user who can't access the audio element with their browser.
+						</p>
+					</li>
+
+				</ol>
+			
+			<h3> The Video Element</h3>
+				<ol>
+					<li>
+						<p>
+							format of the video element is <code>video src="myVideo.mp4" width="500" autoplay muted loop</code>.
+							The video element is used to embed video content into a web page. The source of the video file is defined using the src attribute on the video element.Like the audio element, the video element can take several other attributes, depending on the behaviour you want it to have:If the controls attribute is included, the browser will give the user controls to the user for video playback, including volume and pause.The loop attribute will set the video file to start over each time it is finished.The muted attribute specifies if the video file should be muted when the file is first loaded.When the autoplay attribute is set, the video will automatically play the on loading the page.It is considered a bad user experience to autoplay a video that has sound on it. So if you use the autoplay property, it is also recommended to use the muted attribute, so the video is silent.
+						</p>
+					</li>
+					<li>
+						<p>
+							Browsers don't all support the same file types for video, so if you want to be sure your video file will play on all of them you can provide multiple sources inside nested source elements, and the browser will use the first one that it finds compatible.
+							When nested inside a video element, the source element takes two attributes: The src attribute, which defines the path to the video file. And the type attribute, which defines the type of video file. The value for the type attribute here is either video/webm, video/mp4 or video/ogg. You can read more about multiple video sources in this documentation.
+						</p>
+					</li>
+					<li>
+						<p>
+							As the video element was introduced with HTML5, some browsers do not support it. So like the audio and iframe elements, you can leave a message between the video opening and closing tags to be displayed to users of these browsers.The video element can also take the width and/or height attribute to control its size.
+						</p>
+					</li>
+
+				</ol>
+			
 			
 	  <script src="script.js"></script>
 	  
