@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "editor.formatOnSave": true,
   "notebook.formatOnSave.enabled": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": false
+=======
+  "prettier.semi": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+>>>>>>> 23936022c7b773b1f47ccadcddc10860165c14e6
 }

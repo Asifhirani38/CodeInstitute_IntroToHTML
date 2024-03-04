@@ -595,74 +595,7 @@ Always add the DOCTYPE declaration!
 							<li style="color:darkblue"> <b> The <u> textarea </u> element can also take a placeholder attribute for hint text to be displayed in the text window before the user starts typing.</li> </b>
 						</p>
 					</li>
-				</ul>
-			<h3>The <u>img</u> element in HTML</h3>
-				<ol> 
-					<li>
-			
-						<p>The <u>img</u> element is a self-closing element, meaning it cannot have other content nested inside it, and it has no closing tag.The <u>img</u> element takes two important attributes: The src attribute, which takes the file path to the image file to be displayed. And the alt attribute for text to be displayed if the image file does not load, and to describe the image on screen readers for visually impaired users.
-						 The <u>img</u> element can also take height and width attributes to control its size. Though it is worth bearing in mind, it is better practice to use CSS to control height and width properties, once you have learned how, of course.
-						</p>
-					</li>
-				</ol>
-
-			
-			<h3>The HTML <u>picture</u> Tag</h3>
-				<ol>
-					<li>
-						The picture tag gives web developers more flexibility in specifying image resources.
-
-							The most common use of the picture element will be for art direction in responsive designs. Instead of having one image that is scaled up or down based on the viewport width, multiple images can be designed to more nicely fill the browser viewport.
-							
-							The picture element contains two tags: one or more source tags and one img tag.
-							
-							The browser will look for the first source element where the media query matches the current viewport width, and then it will display the proper image (specified in the srcset attribute). The img element is required as the last child of the picture element, as a fallback option if none of the source tags matches.
-							
-							Tip: The picture element works "similar" to video and audio. You set up different sources, and the first source that fits the preferences is the one being used.
-					</li>
-				</ol>
-			<h3> The Audio Element</h3>
-				<ol>
-					<li>
-						<p>
-							The audio element is used to embed sound content into a web page. The source of the audio file is defined using the src attribute on the audio element.The audio element can take several other attributes depending on the behaviour you want it to have. If the controls attribute is included the browser will give the user controls for audio playback, including volume and pause. The loop attribute will set the audio file to start over each time it is finished. And the muted attribute specifies if the audio file should be muted when the file is first loaded.The autoplay attribute, when set, will automatically play the audio on page load. However, it is considered a bad user experience to autoplay audio or video that has sound on it. Some browsers - including Chrome - will block audio files from playing automatically until the user interacts with the page.
-						</p>
-					</li>
-					<li>
-						<p>
-							Browsers don't all support the same file types for audio, so if you want to be sure your audio file will play on all of them you can provide multiple sources inside nested <source> elements, and the browser will use the first one that it finds compatible.When nested inside an <audio> element, the <source> element takes two attributes: The src attribute, which defines the path to the audio file, and type, which defines the type of audio file. The value for the type attribute here is either audio/mpeg or audio/ogg.
-						</p>
-					</li>
-					<li>
-						<p>
-							An audio element can also contain a track element. This element is used to reference timed text tracks (or time-based data), for example, to handle displaying subtitles automatically.You can read more about the track element in this documentation.As the audio element was introduced with HTML5, some browsers do not support it. So like the iframe element, you can leave a message between the audio opening and closing tags to be displayed to users of these browsers. You can put any html elements between your audio element tags; common choices are paragraph, anchor or heading elements for a text-based message. However, you could add an image, button or any other relevant content that makes sense to display to a user who can't access the audio element with their browser.
-						</p>
-					</li>
-
-				</ol>
-			
-			<h3> The Video Element</h3>
-				<ol>
-					<li>
-						<p>
-							format of the video element is <code>video src="myVideo.mp4" width="500" autoplay muted loop</code>.
-							The video element is used to embed video content into a web page. The source of the video file is defined using the src attribute on the video element.Like the audio element, the video element can take several other attributes, depending on the behaviour you want it to have:If the controls attribute is included, the browser will give the user controls to the user for video playback, including volume and pause.The loop attribute will set the video file to start over each time it is finished.The muted attribute specifies if the video file should be muted when the file is first loaded.When the autoplay attribute is set, the video will automatically play the on loading the page.It is considered a bad user experience to autoplay a video that has sound on it. So if you use the autoplay property, it is also recommended to use the muted attribute, so the video is silent.
-						</p>
-					</li>
-					<li>
-						<p>
-							Browsers don't all support the same file types for video, so if you want to be sure your video file will play on all of them you can provide multiple sources inside nested source elements, and the browser will use the first one that it finds compatible.
-							When nested inside a video element, the source element takes two attributes: The src attribute, which defines the path to the video file. And the type attribute, which defines the type of video file. The value for the type attribute here is either video/webm, video/mp4 or video/ogg. You can read more about multiple video sources in this documentation.
-						</p>
-					</li>
-					<li>
-						<p>
-							As the video element was introduced with HTML5, some browsers do not support it. So like the audio and iframe elements, you can leave a message between the video opening and closing tags to be displayed to users of these browsers.The video element can also take the width and/or height attribute to control its size.
-						</p>
-					</li>
-
-				</ol>
-			
+				</ul>		
 			
 	  <script src="script.js"></script>
 	  
